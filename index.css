@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+li {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.headContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links {
+    text-align: center;
+    margin: 0 3px 100px auto ;
+}
+
+.sideLink {
+    align-self: flex-start;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.descriptionParas {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 580px;
+}
+
+.firstPara {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.projectsBegin {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+
+.keeplyInfo {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.projectPic1 {
+    margin: 0 auto;
+}
+
+.aboutSpan {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.techContainer {
+    margin: 0 auto;
+}
+
+.techpic {
+    width: auto;
+    height: 55px;
+}
+
+.keeplyGit {
+    margin-top: 5px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+.contactBegin {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 430px auto 15px auto;
+}
+
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+.paperplane {
+    width: auto;
+    height: 40px;
+}
+
+.gitLogo {
+    margin-top: 10px;
+    width: auto;
+    height: 40px;
+}
+
+.linkedLogo {
+    margin-top: 10px;
+    width: auto;
+    height: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+    .sideLink {
+        font-size: 20px;
+    }
+
+    .links {
+        position: relative;
+        align-self: flex-start;
+        top: 300px;
+        text-align: center;
+        margin-right: 35px;
+    }
+
+    .aboutSpan {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+    
+
+    .descriptionParas {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 280px;
+    }
