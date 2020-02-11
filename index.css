@@ -59,10 +59,12 @@ li {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
+    margin: 290px auto 70px auto;
+}
+
+.keeplyPicture {
+    width: auto;
+    height: 300px;
 }
 
 
@@ -153,4 +155,330 @@ footer {
         font-size: 16px;
         width: 100%;
         margin-top: 280px;
+    }
+
+    .fourpics {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      
+      .first {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+      }
+      
+      .second {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 50px;
+      }
+      
+      .one {
+        font-size: 21px;
+        text-align: center;
+      }
+      
+      .two {
+        font-size: 21px;
+        text-align: center;
+      }
+      
+      .three {
+        font-size: 21px;
+        text-align: center;
+      }
+      
+      .four {
+        font-size: 21px;
+        text-align: center;
+      }
+
+      .collageImgs {
+        width: auto;
+        height: 140px;
+        margin-left: 10px auto 10px auto;
+    }
+
+    .sideLink {
+        font-size: 20px;
+    }
+
+    .links {
+        position: relative;
+        align-self: flex-start;
+        top: 600px;
+        text-align: center;
+    }
+
+    .aboutSpan {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+
+    .descriptionParas {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 580px;
+    }
+
+    .liveSite {
+        text-align: center;
+    }
+
+    .keeplyGit {
+        margin: 10px auto 10px auto;
+    }
+
+
+    @media screen and (min-width : 600px) {
+
+        .headContainer {
+            flex-direction: row;
+            margin-top: 100px;
+        }
+     
+       
+        .sideLink {
+            font-size: 25px;
+        }
+    
+        .links {
+            top: 0px;
+            right: 10px;
+        }
+    
+        .aboutSpan {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+    
+        .descriptionParas {
+            margin-top: 390px;
+        }
+    
+        .projectsBegin {
+            font-size: 25px;
+        }
+    
+        .keeplyPicture {
+            height: 330px;
+        }
+    
+        .keeplyInfo {
+            font-size: 22px;
+        }
+    
+        .techpic {
+            height: 100px;
+        }
+    
+        .keeplyGit{
+            width: auto;
+            height: 60px;
+        }
+    
+        .contactBegin {
+            font-size: 25px;
+            margin: 560px auto 15px auto;
+        }
+    
+        .paperplane {
+            height: 60px;
+        }
+        
+        .gitLogo {
+            height: 60px;
+        }
+        
+        .linkedLogo {
+            height: 50px;
+        }
+    
+        footer {
+            font-size: 22px;
+            line-height: 1.5;
+        }
+
+        .liveSite {
+            margin-top: 30px;
+        }
+    
+    }
+    
+    
+        @media screen and (min-width : 1024px) {
+        .headContainer {
+            margin-top: 120px;
+            flex-direction: row;
+        }
+    
+        .sideLink {
+            font-size: 30px;
+        }
+    
+        .links {
+            top: 0px;
+            right: 10px;
+        }
+    
+        .aboutSpan {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+    
+        .descriptionParas {
+            font-size: 22px;
+            margin-top: 570px;
+        }
+    
+        .projectsBegin {
+            font-size: 33px;
+            margin-top: 420px;
+        }
+    
+        .keeplyPicture {
+            height: 420px;
+        }
+    
+        .keeplyInfo {
+            font-size: 20px;
+        }
+    
+        .techpic {
+            height: 140px;
+        }
+    
+        .keeplyGit{
+            width: auto;
+            height: 60px;
+        }
+    
+        .contactBegin {
+            font-size: 28px;
+            margin: 560px auto 15px auto;
+        }
+    
+        .contactContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 320px;
+        }
+        
+    
+        .paperplane {
+            height: 60px;
+            margin-top: 5px;
+        }
+        
+        .gitLogo {
+            height: 60px;
+            margin-top: 20px;
+        }
+        
+        .linkedLogo {
+            height: 50px;
+            margin-top: 20px;
+        }
+    
+        footer {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .liveSite {
+            margin-top: 50px;
+        }
+    
+    }
+    
+    
+        @media screen and (min-width : 1401px) {
+        .headContainer {
+            margin-top: 100px;
+            flex-direction: row;
+        }
+        
+        .sideLink {
+            font-size: 25px;
+        }
+    
+        .links {
+            top: 0px;
+            right: 10px;
+        }
+    
+        .aboutSpan {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+    
+        .descriptionParas {
+            font-size: 20px;
+            width: 100%;
+            margin-top: 330px;
+        }
+    
+        .projectsBegin {
+            font-size: 33px;
+            margin-top: 420px;
+        }
+    
+        .keeplyPicture {
+            height: 420px;
+        }
+    
+        .keeplyInfo {
+            font-size: 20px;
+        }
+    
+        .techpic {
+            height: 140px;
+        }
+    
+        .contactBegin {
+            font-size: 28px;
+            margin: 560px auto 15px auto;
+        }
+    
+        .contactContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 320px;
+        }
+        
+    
+        .paperplane {
+            height: 60px;
+            margin-top: 5px;
+        }
+        
+        .gitLogo {
+            height: 60px;
+            margin-top: 20px;
+        }
+        
+        .linkedLogo {
+            height: 50px;
+            margin-top: 20px;
+        }
+    
+        footer {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .liveSite {
+            margin-top: 50px;
+        }
+    
     }
